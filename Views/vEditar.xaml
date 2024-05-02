@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="semana5GPaucar.Views.vEditar"
+             Title="vEditar">
+    <VerticalStackLayout>
+        <Label 
+            Text="Editar Persona"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+             
+             Text="id"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
+
+
+        <Label 
+            x:Name="lblId"
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+        <Label      
+         Text="Nombre"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center" />
+
+        <Entry 
+             x:Name="txtNombre"
+            Text=""
+              VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button 
+         x:Name="btnGuardar" Text="Guardar"
+         Clicked="btnGuardar_Clicked"
+         VerticalOptions="CenterAndExpand"
+         HorizontalOptions="Center"
+          Margin="0,20,0,0" />
+
+
+
+    </VerticalStackLayout>
+</ContentPage>
